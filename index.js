@@ -21,3 +21,10 @@ const courses = require("./data/courses/courses.json");
 app.get("/courses", (req, res) => {
   res.send(courses);
 });
+
+// single course data
+app.get("/course/:id", (req, res) => {
+  const courseId = req.params.id;
+  const course = courses.find(course => course.id === courseId);
+  res.send(course);
+});
