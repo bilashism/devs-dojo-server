@@ -1,5 +1,79 @@
 [
   {
-    "name": "Web Development"
+    "id": "kNgGRE",
+    "courseName": "👍 Modern HTML & CSS From The Beginning (Including Sass)",
+    "rating": 4.7,
+    "duration": "21 hours on-demand video",
+    "details": "Modern HTML & CSS From The Beginning (Including Sass) is one of the best cyber security online courses that is designed for personal and home cybersecurity, privacy, and anonymity. You will learn the practical skill set for network security against threats like hackers, trackers, exploit kits, Wi-Fi attacks, etc. You will also be able to discover security vulnerabilities from an entire network by using network hacking techniques and vulnerability scanning. This course includes both learnings & studying sections along with real-life projects. It helps you learn frameworks like Bootstrap for your user interface and teach you how to create layouts and utility classes to build custom responsive websites.",
+    "certification": "yes",
+    "price": "80",
+    "courseImg": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=420&q=80",
+    "topics": "Modern HTML, CSS"
+  },
+  {
+    "id": "buUex5",
+    "courseName": "The Complete JavaScript Course: From Zero to Expert!",
+    "rating": 4.8,
+    "duration": "69 hours on-demand video",
+    "details": "The Complete JavaScript Course is a web development course that will help you learn the fundamentals of JavaScript to build modern and complex applications. In this course, you will know the concept of modern JavaScript from the very beginning, step-by-step. It also helps you learn how to think like a developer, plan application features, architect your code, debug code, and many other real-world skills needed for your developer job.",
+    "certification": "yes",
+    "price": "200",
+    "courseImg": "https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=420&q=80",
+    "topics": "Javascript"
+  },
+  {
+    "id": "RFXlE2",
+    "courseName": "The Web Developer Bootcamp",
+    "rating": 4.7,
+    "duration": "63.5 hours on-demand video",
+    "details": "The Web Developer Bootcamp is the most popular web development course. This online learning course is a complete guide for students to prepare for the 2021 job market, with over 60 hours of brand new content. There are a lot of web development concepts in this online developer training. However, this course is surely one of the most comprehensive and effective on the market.",
+    "certification": "yes",
+    "price": "120",
+    "courseImg": "https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=420&q=80",
+    "topics": "Web Developer"
+  },
+  {
+    "id": "JdK2Kn",
+    "courseName": "The React Bootcamp",
+    "rating": 4.7,
+    "duration": "68 hours on-demand video",
+    "details": "The React Bootcamp is the most popular web development course. This online learning course is a complete guide for students to prepare for the 2022 job market, with over 68 hours of brand new content. There are a lot of web development concepts in this online React Bootcamp training. However, this course is surely one of the most comprehensive and effective on the market.",
+    "certification": "yes",
+    "price": "170",
+    "courseImg": "https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=420&q=80",
+    "topics": "React Developer"
+  },
+  {
+    "id": "R2wKX_",
+    "courseName": "Front End Web Developer",
+    "rating": 4.6,
+    "duration": "4 Months",
+    "details": "The Front End Web Developer course aims to equip learners with the unique skills they need to build and develop a variety of websites and applications. You will learn how to develop interactive websites and UI (User Interface) applications using JavaScript, CSS, and HTML. It will also help you to connect a web application to the backend server database. Students will also learn how to build competency in building web applications and deployment processes using Webpack.",
+    "certification": "yes",
+    "price": "90",
+    "courseImg": "https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=420&q=80",
+    "topics": "Front End, web development"
+  },
+  {
+    "id": "pKJgcj",
+    "courseName": "HTML, CSS, and JavaScript for Web Developers",
+    "rating": 4.7,
+    "duration": "Approx. 40 hours to complete",
+    "details": "HTML, CSS, and JavaScript for Web Developers help you learn the basic tools that every web developer needs to know. This web development course starts from the ground and helps you learn how to implement modern web pages with HTML and CSS. After attending this online class, you will be able to code a web page in mobile and desktop applications. You will also learn about using JavaScript to build a fully functional web application and utilize Ajax for server-side data functionality for the end-user.",
+    "certification": "yes",
+    "price": "90",
+    "courseImg": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=420&q=80",
+    "topics": "HTML, CSS, Javascript"
+  },
+  {
+    "id": "MKJGCj",
+    "courseName": "Node.js for Web Developers",
+    "rating": 4.9,
+    "duration": "Approx. 60 hours to complete",
+    "details": "After attending this online class, you will be able to code a web page in mobile and desktop applications. You will also learn about using JavaScript to build a fully functional web server side Node.js application.",
+    "certification": "yes",
+    "price": "110",
+    "courseImg": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=420&q=80",
+    "topics": "HTML, CSS, Javascript"
   }
 ]
