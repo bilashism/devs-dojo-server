@@ -4,19 +4,21 @@
   "description": "education server site",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "deploy": "vercel --prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/programming-hero-web-course1/b610-lerning-platform-server-side-bilashism.git"
+    "url": "git+https://github.com/bilashism/devs-dojo-server.git"
   },
   "author": "Md. Taifuzzaman Bilash <bilashism@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/programming-hero-web-course1/b610-lerning-platform-server-side-bilashism/issues"
+    "url": "https://github.com/bilashism/devs-dojo-server/issues"
   },
-  "homepage": "https://github.com/programming-hero-web-course1/b610-lerning-platform-server-side-bilashism#readme",
+  "homepage": "https://github.com/bilashism/devs-dojo-server#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2"
