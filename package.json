@@ -21,6 +21,9 @@
   "homepage": "https://github.com/bilashism/devs-dojo-server#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^4.13.0"
   }
 }
