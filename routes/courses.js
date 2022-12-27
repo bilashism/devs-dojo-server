@@ -1,10 +1,11 @@
-const { db, ObjectId } = require("../utilities/mongodb");
-const express = require("express");
-const router = express.Router();
+import { db, ObjectId } from "../utilities/mongodb.js";
+import { Router } from "express";
+
+const coursesRouter = Router();
 
 /* This is a route handler for the GET /courses route. It is using the MongoDB driver to query the
 courses collection and return all the documents in the collection. */
-router.get("/", async (req, res) => {
+coursesRouter.get("/", async (req, res) => {
   const query = {};
   const options = {};
   const coursesCollection = db.collection("courses");
@@ -14,7 +15,7 @@ router.get("/", async (req, res) => {
 
 /* This is a route handler for the GET /courses/:id route. It is using the MongoDB driver to query the
 courses collection and return the document with the specified id. */
-router.get("/:id", async (req, res) => {
+coursesRouter.get("/:id", async (req, res) => {
   const id = req.params.id;
   const query = { _id: ObjectId(id) };
   const options = {};
@@ -23,4 +24,4 @@ router.get("/:id", async (req, res) => {
   res.send(course);
 });
 
-module.exports = router;
+export default coursesRouter;

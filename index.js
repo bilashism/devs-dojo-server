@@ -1,8 +1,9 @@
-const dotenv = require("dotenv");
-dotenv.config();
-const express = require("express");
-const cors = require("cors");
-const { json } = require("express");
+import { config } from "dotenv";
+import express, { json } from "express";
+import cors from "cors";
+import courses from "./routes/courses.js";
+
+config();
 const app = express();
 const port = process.env.PORT || 5000;
 
@@ -24,5 +25,4 @@ app.get("/", (req, res) => {
 });
 
 // for courses route
-const courses = require("./routes/courses");
 app.use("/courses", courses);
